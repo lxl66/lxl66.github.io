@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>评论模块</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="https://cdn.bootcss.com/vue/2.5.13/vue.js"></script>
+		<script src="./comment-input.js"></script>
+		<script src="./comment-list.js"></script>
+	</head>
+	<body>
+		<div id="root">
+			<cinput @woyaobaocun="zhendeyaobaocuna"></cinput>
+			<clist v-bind:comments="comments"></clist>
+		</div>
+		
+		<script>
+			Vue.component('cinput', commentInput);
+			Vue.component('clist', commentList);
+			Vue.component('comment',commentItem);
+			
+			var app = new Vue({
+				data :{
+					comments:[
+						{id: 11,author: '张三', content: '哈哈'},
+						{id: 22,author: '李四', content: '啊啊啊'}
+					]
+				},
+				methods: {
+					zhendeyaobaocuna(res){
+						this.comments.push(res);
+					}
+				},
+				el: '#root'
+			});
+			
+		</script>
+</html>

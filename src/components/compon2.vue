@@ -42,29 +42,29 @@ export default {
           background: 'rgba(29, 218, 61, 0.2)',
           child: [
             {name: 'Vue', background: 'rgba(29, 218, 61, 0.2)'},
-            {name: 'Element', background: 'rgba(29, 218, 61, 0.2)'},
-            {name: 'H5', background: 'rgba(29, 218, 61, 0.2)'},
-            {name: 'JavaScript', background: 'rgba(29, 218, 61, 0.2)'}
+            {name: 'VueRouter', background: 'rgba(29, 218, 61, 0.2)'},
+            {name: 'Vuex', background: 'rgba(29, 218, 61, 0.2)'},
+            {name: 'axios', background: 'rgba(29, 218, 61, 0.2)'}
           ]
         },
         {
-          name: '后台',
+          name: '服务端',
           background: 'rgba(211, 184, 30, 0.2)',
           child: [
-            {name: 'JAVA', background: 'rgba(211, 184, 30, 0.2)'},
-            {name: 'SSM核心框架', background: 'rgba(211, 184, 30, 0.2)'},
-            {name: 'C#', background: 'rgba(211, 184, 30, 0.2)'},
-            {name: '前后端分离', background: 'rgba(211, 184, 30, 0.2)'}
+            {name: 'NodeJs', background: 'rgba(211, 184, 30, 0.2)'},
+            {name: 'mongoose', background: 'rgba(211, 184, 30, 0.2)'},
+            {name: 'express', background: 'rgba(211, 184, 30, 0.2)'},
+            {name: 'ES6', background: 'rgba(211, 184, 30, 0.2)'}
           ]
         },
         {
-          name: '数据库',
+          name: '工具',
           background: 'rgba(232, 13, 24, 0.2)',
           child: [
-            {name: 'SQLServer', background: 'rgba(232, 13, 24, 0.2)'},
-            {name: 'MYSQL', background: 'rgba(232, 13, 24, 0.2)'},
-            {name: 'SQLlite', background: 'rgba(232, 13, 24, 0.2)'},
-            {name: 'Oracle', background: 'rgba(232, 13, 24, 0.2)'}
+            {name: 'Git', background: 'rgba(232, 13, 24, 0.2)'},
+            {name: 'WebPack', background: 'rgba(232, 13, 24, 0.2)'},
+            {name: 'Ubuntu', background: 'rgba(232, 13, 24, 0.2)'},
+            {name: 'VS Code', background: 'rgba(232, 13, 24, 0.2)'}
           ]
         }
       ]

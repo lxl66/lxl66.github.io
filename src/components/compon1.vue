@@ -7,8 +7,8 @@
       <div class="cont"  v-if="show">
         <img class="avatar" src="../../static/img/bg3.jpg" alt="">
         <h2>博学之,审问之,慎思之,明辨之,笃行之</h2>
-        <p>我叫李醒亮</p>
-        <p>就读于广东南方职业培训学院</p>
+        <p>我叫李在荣</p>
+        <p>二年互联网经验,一年前端开发经验</p>
         <div class="state">
           <el-row :gutter="30">
             <template v-for="item in states">
@@ -31,10 +31,10 @@ export default {
     return {
       show: false,
       states: [
-        {icon: 'icon-nianling', val: '年龄/19'},
+        {icon: 'icon-nianling', val: '年龄/30'},
         {icon: 'icon-xueli', val: '学历/本科'},
-        {icon: 'icon-icon-', val: '坐标/广东珠海'},
-        {icon: 'icon-zhiwei', val: '状态/在校'}
+        {icon: 'icon-icon-', val: '坐标/四川会理'},
+        {icon: 'icon-zhiwei', val: '状态/离职'}
       ]
     }
   },

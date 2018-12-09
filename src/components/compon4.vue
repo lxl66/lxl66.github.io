@@ -13,13 +13,13 @@
         </div>
         <div class="honor">
           <h2>兴趣爱好</h2>
-          <p>爱读书、爱写字、爱喝茶，运动方面喜欢打羽毛球，游泳</p>
+          <p>爱读书、爱写字、爱喝茶</p>
           <p>喜欢尝试新事物</p>
         </div>
         <div class="contact">
           <h2>联系我</h2>
-          <p><i class="iconfont icon-shouji"></i>  17688179348</p>
-          <p><i class="iconfont icon-youxiang"></i>  1225303662@qq.com</p>
+          <p><i class="iconfont icon-shouji"></i>  15181589155</p>
+          <p><i class="iconfont icon-youxiang"></i>  lzr3278@163.com</p>
         </div>
         <div class="acount">
           <el-row>
